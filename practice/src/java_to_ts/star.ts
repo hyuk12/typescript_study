@@ -9,11 +9,12 @@
 // 		}
 
 for (let i = 0; i < 10; i++) {
-    for(let j = 0; j < i + 1; j++) {
-        console.log("*");
-    }
-    console.log("\n");
-}
+    console.log("*".repeat(i + 1));
+};
+
+for (let i = 0; i < 10; i++) {
+    console.log(" ".repeat(9-i), "*".repeat(i + 1));
+};
 		
 // 		for(int i = 0; i < 10; i++) {
 // 			for(int j = 0; j < 10 - i; j++) {
