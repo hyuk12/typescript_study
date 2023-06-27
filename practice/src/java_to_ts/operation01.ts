@@ -22,6 +22,7 @@ const mul : number = 10 * 2;
 const div : number = 10 / 5; 
 const remainder : number = 10 % 5;
 
+
 console.log(add);
 console.log(sub);
 console.log(mul);
