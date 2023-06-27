@@ -1,4 +1,3 @@
-import { Foo } from "./sameObject1"
 
 const foo = {num : 1235};
 const bar1 = { ...foo };
